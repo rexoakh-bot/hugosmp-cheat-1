@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1, "id": "hugosmp", "version": "${version}", "name": "cavevfx Mod",
+  "description": "cavevfx Mod", "environment": "client", "mixins": ["hugosmp.mixins.json"],
+  "entrypoints": { "client": ["de.hugosmp.HugoSmpClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}
